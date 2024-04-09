@@ -192,7 +192,6 @@ address {
   height: 100%;
 }
 
-
 .card-link {
   text-decoration: none;
   font-family: "Raleway", sans-serif;
@@ -202,8 +201,7 @@ address {
   width: 254px;
   margin-left: 40px;
   padding-top: 51px;
-  text-decoration: underline;
-  font-weight: bold;
+  text-decoration: underlin font-weight: bold;
   font-size: 22px;
   line-height: 120%;
   text-transform: uppercase;
@@ -222,4 +220,55 @@ address {
   margin-top: 30px;
   font-family: "Raleway", sans-serif;
   font-size: 20px;
+}
+
+.about {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 334px 693px auto;
+  justify-content: start;
+  grid-template-rows: auto;
+  margin-left: 24px;
+  margin-top: 146px;
+}
+
+.about__column {
+  width: 100%;
+}
+
+.about__logo {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+  display: flex;
+  background-color: black;
+  width: 240px;
+  height: 240px;
+  border-radius: 240px;
+}
+
+.about__logo-image {
+  width: 148px;
+  margin: auto;
+}
+
+.about__title {
+  margin-top: 133px;
+  margin-bottom: 103px;
+  margin-left: 22px;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.about__text {
+  margin-bottom: 24px;
+  margin-left: 22px;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
 }
