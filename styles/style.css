@@ -91,12 +91,15 @@ address {
   text-transform: uppercase;
   margin-top: 220px;
 }
-.letter-spacing-small{
+
+.letter-spacing-small {
   letter-spacing: 2rem;
-} 
+}
+
 .letter-spacing {
   letter-spacing: 3rem;
-} 
+}
+
 .aligne-text_begin {
   text-align: start;
   line-height: 120px;
