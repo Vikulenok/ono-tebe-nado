@@ -70,6 +70,8 @@ address {
 }
 
 .cover {
+  display: flex;
+  flex-direction: row;
   background-image: url("../images/cover.jpg");
   background-size: 125%;
   background-repeat: no-repeat;
@@ -84,20 +86,26 @@ address {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: bold;
-  margin-right: 50px;
+  margin-right: 25px;
   margin-left: 50px;
   text-transform: uppercase;
-  padding-top: 220px;
+  margin-top: 220px;
 }
-
+.letter-spacing-small{
+  letter-spacing: 2rem;
+} 
+.letter-spacing {
+  letter-spacing: 3rem;
+} 
 .aligne-text_begin {
   text-align: start;
-  line-height: 115px;
+  line-height: 120px;
 }
 
 .aligne-text_center {
   text-align: center;
-  line-height: 100px;
+  line-height: 130px;
+  margin-right: 70px;
 }
 
 .aligne-text_end {
@@ -274,9 +282,9 @@ address {
 }
 
 .footer {
-  margin-top: 286px;
+  margin-top: 180px;
   margin-left: 24px;
-  margin-right: 24px;
+  margin-right: 50px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
