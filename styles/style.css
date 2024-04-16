@@ -35,9 +35,9 @@
 
 .header__logo {
   justify-self: start;
-  width: 148px;
+  width: 137px;
   height: 105px;
-  margin-left: 36px;
+  margin-left: 40px;
 }
 
 .header__logo-image {
@@ -249,11 +249,11 @@
 .about {
   display: grid;
   grid-auto-flow: column;
-  grid-template-columns: 334px 710px;
+  grid-template-columns: 334px 714px;
   justify-content: start;
   grid-template-rows: auto;
   padding-left: 24px;
-  padding-top: 146px;
+  padding-top: 145px;
 }
 
 .about__column {
@@ -302,7 +302,7 @@
 }
 
 .footer {
-  margin-top: 179px;
+  margin-top: 181px;
   margin-left: 52px;
   margin-right: 50px;
   display: grid;
